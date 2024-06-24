@@ -1,9 +1,11 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { constantAction } from "../helpers/actionTypes";
 import LoginReducer from "./reducers/LoginReducer";
+import SignUpReducer from "./reducers/SignUpReducer";
 
 const allReducers = combineReducers({
   login: LoginReducer,
+  signUp: SignUpReducer
 });
 
 export const rootReducer = (state, action) => {

@@ -19,7 +19,6 @@ const router = createBrowserRouter([{
   element: <Home />
 }
 ]);
-
   return (
   <>
   <RouterProvider router={router} />
